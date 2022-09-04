@@ -1,0 +1,13 @@
+spring:
+   datasource:
+      url: jdbc:mysql://localhost:3306/userlist
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      username: root
+      password: Temp1234
+   Jpa:
+      hibernate.ddl-auto: update
+      
+   Security:
+      user:
+         name: User
+         password: Temp1234
